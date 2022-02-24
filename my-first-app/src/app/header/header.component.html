@@ -1,0 +1,20 @@
+<div>
+    <img src="./../../assets/Images/logo.png" alt="logo" height="50px" width="100px" style="margin: 30px 0px 0px 30px; float: left;">
+    <div class="navbar" style="float: right; margin: 35px 20px 0px 20px;">
+            <a style="margin:20px 30px 0px 20px">Phone</a>    
+            <a style="margin:20px 30px 0px 20px">Laptop</a>
+            <a style="margin:20px 30px 0px 20px">Accessories</a>
+            <a style="margin:20px 30px 0px 20px">Smart Watch</a>
+            <a style="margin:20px 30px 0px 20px">Tablet</a>
+            <a style="margin:20px 30px 0px 20px">Cart Items:{{count}}</a>
+    </div>
+</div>
+
+<img src="./../../assets/Images/a2.jpg" alt="showphoto" height="500px">
+<img src="./../../assets/Images/a5.jpg" alt="showphoto" height="500px">
+<img src="./../../assets/Images/a6.jpg" alt="showphoto" height="500px">
+<img src="./../../assets/Images/a4.jpg" alt="showphoto" height="500px">
+<img src="./../../assets/Images/a3.jpg" alt="showphoto" height="500px">
+<img src="./../../assets/Images/a1.jpg" alt="showphoto" height="500px">
+
+<app-product (eventExecutedAdd)="addto()" (eventExecutedRemove)="removeto()"></app-product>
