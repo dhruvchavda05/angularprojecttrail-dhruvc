@@ -1,3 +1,118 @@
-<app-header></app-header>
+<!-- <app-header></app-header> -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<div class="container">
+
+    <!-- <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <br>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Day of Check-In</label>
+          <input type="date" class="form-control" id="exampleInputEmail1">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Date of Check-Out</label>
+          <input type="date" class="form-control" id="exampleInputPassword1">
+        </div> -->
+        <!-- <div class="form-group">
+            <label >Your Expected Amount for Trip is Around:</label>
+            <p>{{amount}}</p>
+          </div>
+        <div class="form-group form-check"> -->
+          <!-- <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form> -->
+
+
+      <!-- <form >
+          <label>From</label>
+          <input type="date" name="form" #form required><br>
+          <label>To</label>
+          <input type="date" name="to" #to required><br>
+             <button class="btn btn-primary" (click)="showdetails(from.value,to.value)">Click here</button>
+      </form>
+     -->
+    <!-- <p [ngClass]="item>10?'red':'yellow'">{{item}}</p>
+    <p [ngClass]="classfeature()">{{item}}</p>
+    <p [ngClass]="evenodd()">{{item}}</p> -->
+    <!--<ul *ngFor="let newArray of newArrays">
+        <li [ngClass]="newArray%2==0?'red':'yellow'">{{newArrays}}</li>
+    </ul>-->
+
+    <!-- <button [ngStyle]="{background:'yellow'}">Click Me</button>
+    <button [ngStyle]="appendStyle">Click</button>
+    -->
+    <!-- </div>-->
+    <div class="container mt-5">
+    <!-- <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>User Name</th>
+            <th>Email</th>
+            <th>Address</th>
+            <th>Phone</th>
+            <th>Website</th>
+            <th>Company</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let user of Users" >
+            <td>{{user.id}}</td>
+            <td>{{user.name}}</td>
+            <td>{{user.username}}</td>
+            <td>{{user.email}}</td>
+            <td>{{user.address.city}}</td>
+            <td>{{user.phone}}</td>
+            <td>{{user.website}}</td>
+            <td>{{user.company.name}}</td>
+            <td><button>Disappear</button></td>
+        </tr>
+    </tbody>
+    </table> -->
+    <!-- <form #myForm="ngForm" >
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted" >We'll never share your email with anyone else.</small>
+        </div>user
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button [disabled]="!myForm.valid" type="submit" class="btn btn-primary">Submit</button>
+      </form>
+</div>
+<br>
+<p>Press this button to show a Table</p>
+<p>Write a Number:</p>
+<input type="text" >
+<button>Click here</button>
+<table>
+    <tbody>
+      <tr *ngFor="let row of [0,1,2,3,4]">
+        <td *ngFor="let col of [0,1,2,3,4]">
+          {{ numArray[5 * row + col] }}
+        </td>
+      </tr>
+    </tbody>
+  </table> -->
+
 <!-- <app-footer></app-footer>
+    
 <app-timer></app-timer> -->
+<!-- <app-react-form></app-react-form> -->
+<app-reactive-address-form></app-reactive-address-form>

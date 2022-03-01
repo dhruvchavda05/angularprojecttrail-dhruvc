@@ -1,0 +1,29 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<form [formGroup]="myForm" (ngSubmit)="onSubmit(myForm)">
+    <div class="form-group">
+      <label for="exampleInputFname">First-Name</label>
+      <input type="name" class="form-control" id="exampleInputfname" placeholder="Enter First Name">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputLname">Last-Name</label>
+        <input type="name" class="form-control" id="exampleInputlname" placeholder="Enter Last Name">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail">Email</label>
+        <input type="email" class="form-control" id="exampleInputemail" placeholder="Enter Email">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputAge">Enter Your Age</label>
+        <input type="number" class="form-control" id="exampleInputAge" placeholder="Enter Age">
+      </div>
+      <div class="form-group">
+        <label for="examplecheckin">Check-In Date</label>
+        <input type="date" class="form-control" id="exampledate" >
+      </div>
+      <div class="form-group">
+        <label for="examplecheckout">Check-Out Date</label>
+        <input type="date" class="form-control" id="exampleIdate" >
+      </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
